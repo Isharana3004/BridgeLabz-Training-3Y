@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <h1 align="center">Student Registration Form</h1>
+
+    <table border="2" width="50%" align="center" cellpadding="12" cellspacing="0">
+
+        <!-- Form Heading -->
+        <tr>
+            <th colspan="2">Registration Form</th>
+        </tr>
+
+        <!-- Full Name -->
+        <tr>
+            <td>Full Name</td>
+            <td>
+                <input type="text" placeholder="Enter your name">
+            </td>
+        </tr>
+
+        <!-- Email -->
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="email" placeholder="abc@gmail.com">
+            </td>
+        </tr>
+
+        <!-- Phone Number -->
+        <tr>
+            <td>Phone Number</td>
+            <td>
+                <input type="tel" placeholder="9876543210">
+            </td>
+        </tr>
+
+        <!-- Date of Birth -->
+        <tr>
+            <td>Date of Birth</td>
+            <td>
+                <input type="date">
+            </td>
+        </tr>
+
+        <!-- Gender -->
+        <tr>
+            <td>Gender</td>
+            <td>
+
+                <input type="radio" name="gender" value="male">
+                <label>Male</label>
+
+                <input type="radio" name="gender" value="female">
+                <label>Female</label>
+
+                <input type="radio" name="gender" value="other">
+                <label>Other</label>
+
+            </td>
+        </tr>
+
+        <!-- Skills -->
+        <tr>
+            <td>Skills</td>
+            <td>
+
+                <input type="checkbox" name="skill" value="html">
+                <label>HTML</label>
+
+                <input type="checkbox" name="skill" value="css">
+                <label>CSS</label>
+
+                <input type="checkbox" name="skill" value="javascript">
+                <label>JavaScript</label>
+
+            </td>
+        </tr>
+
+        <!-- Course -->
+        <tr>
+            <td>Course</td>
+            <td>
+
+                <select>
+                    <option>--Select Course--</option>
+                    <option>Computer Science</option>
+                    <option>Data Science</option>
+                    <option>Information Technology</option>
+                    <option>Artificial Intelligence</option>
+                </select>
+
+            </td>
+        </tr>
+
+        <!-- Address -->
+        <tr>
+            <td>Address</td>
+            <td>
+                <textarea rows="5" cols="35"></textarea>
+            </td>
+        </tr>
+
+        <!-- Resume -->
+        <tr>
+            <td>Upload Resume</td>
+            <td>
+                <input type="file">
+            </td>
+        </tr>
+
+        <!-- Buttons -->
+        <tr>
+            <td colspan="2" align="center">
+
+                <input type="submit" value="Register">
+                <input type="reset" value="Reset">
+
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+.container{
+    /* border: 5px double red; */
+    width: ;
+    padding: 20px 50px;
+    margin: 20px auto;
+    font-size: 10px;
+    border-radius: 10px 0px 20px 0px;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/054/876/032/small/mirror-image-snow-capped-mountain-peaks-reflected-in-pristine-lake-free-photo.jpg");
+    background-repeat: no-repeat;
+
+}

@@ -1,0 +1,25 @@
+
+        #heading-red{
+            background-color: brown;
+            color:black;
+            text-align:center;
+            font size:100px;
+            font-family: 'Segoe UI ',Geneva,Verdana,sans-serif;
+            width: fit-content;
+            margin: auto;
+            padding: 5px 20px;
+            margin-bottom: 15px;
+        }
+        #heading-green{
+            background-color: rgb(42, 165, 142);
+            color:black;
+            text-align:center;
+            font size:100px;
+            font-family: 'Segoe UI ',Geneva,Verdana,sans-serif;
+            width: fit-content;
+            margin: auto;
+            padding: 5px 20px;
+
+
+        }
+
